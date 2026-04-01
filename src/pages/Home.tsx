@@ -27,7 +27,7 @@ export default function Home() {
           <div className="relative group w-full max-w-md mx-auto lg:max-w-none">
             <div className="aspect-[4/5] overflow-hidden rounded-2xl border border-[#333] transition-all duration-500 group-hover:border-[#FFCE10]/50 group-hover:shadow-[0_0_40px_-10px_rgba(255,206,16,0.3)]">
               <img
-                src="https://i.imgur.com/TEWz5CO.png"
+                src="https://i.imgur.com/S907PNL.png"
                 alt="Dom - Web Designer"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale contrast-125 brightness-90 transition-all duration-500 group-hover:grayscale-0 group-hover:contrast-100 group-hover:brightness-100"
