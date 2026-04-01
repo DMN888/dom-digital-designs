@@ -22,21 +22,45 @@ export default function SleepyheadLogo() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/ZaEQv5o.png" 
               alt="Gallery Image 1" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/veMh1LL.png" 
               alt="Gallery Image 2" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/nIZcyqi.png" 
+              alt="Gallery Image 3" 
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+        </div>
+
+           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+          <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+            <img 
+              src="https://i.imgur.com/62LQVbo.png" 
+              alt="Gallery Image 1" 
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+          <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+            <img 
+              src="https://i.imgur.com/Qo4jFcA.png" 
+              alt="Gallery Image 2" 
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+          <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+            <img 
+              src="https://i.imgur.com/R7GpV1s.png" 
               alt="Gallery Image 3" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
@@ -48,7 +72,6 @@ export default function SleepyheadLogo() {
             <div>
               <h3 className="text-2xl font-bold text-white mb-4">Project Overview</h3>
               <p>Crafting impactful logos is my passion and expertise. I specialize in creating unique and memorable visual identities that capture the essence of your brand. Whether you're launching a new business, rebranding, or seeking a fresh identity, I'm here to bring your ideas to life. Let's collaborate and craft a logo that not only stands out but also leaves a lasting impression, making your brand unforgettable.</p>
-              <p className="mt-6 text-sm"><strong className="text-white">Tools Used:</strong> Adobe Photoshop</p>
             </div>
           </div>
           

@@ -17,7 +17,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/sXBEDnW.png" 
                 alt="Aqua 67 Shopify" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -37,7 +37,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/SAuLi0o.png" 
                 alt="Tea x Tops Logo" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -57,7 +57,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/MRRMRxy.png" 
                 alt="J&T Riders Uniform" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -77,7 +77,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/cjJLjl5.jpg" 
                 alt="KOG Logo" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -97,7 +97,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/7nHT772.png" 
                 alt="Whitehorse Active" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -117,7 +117,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/1qEAnK2.png" 
                 alt="Rayjuve Shopify" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -137,7 +137,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/RcR3Bpa.png" 
                 alt="7 Day Garage Door Branding" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -157,7 +157,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/lBUGq2B.png" 
                 alt="ePowerGo Shopify" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -177,7 +177,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/4bbXgC9.png" 
                 alt="Infrared Fire Shopify" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -197,7 +197,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/KQ68v5G.png" 
                 alt="OVUK Photo Retouching" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -217,7 +217,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/AjmUnlF.png" 
                 alt="Antukin Graphic Tees" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -237,7 +237,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1530103862676-de8892b07439?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/n3OIJe9.png" 
                 alt="The Balloon Workshop Listing" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -257,7 +257,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/DhnUrcT.jpg" 
                 alt="Paragon Ads" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -277,7 +277,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/wbMDNCx.png" 
                 alt="MyPetPoncho Print Product" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -297,7 +297,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/62LQVbo.png" 
                 alt="Sleepyhead Logo" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -317,7 +317,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/JI3XI1K.png" 
                 alt="Zulay Kitchen" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -337,7 +337,7 @@ export default function Work() {
           <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
             <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
               <img 
-                src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=600&auto=format&fit=crop" 
+                src="https://i.imgur.com/gqIpTKO.png" 
                 alt="Bowser Bean Car Wrap" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />

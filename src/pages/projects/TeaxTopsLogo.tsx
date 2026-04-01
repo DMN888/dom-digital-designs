@@ -22,21 +22,21 @@ export default function TeaxTopsLogo() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/oaaBlFu.png" 
               alt="Gallery Image 1" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/SAuLi0o.png" 
               alt="Gallery Image 2" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/OSNEY2D.png" 
               alt="Gallery Image 3" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
@@ -48,7 +48,6 @@ export default function TeaxTopsLogo() {
             <div>
               <h3 className="text-2xl font-bold text-white mb-4">Project Overview</h3>
               <p>This project involved designing a logo for my friend Daven's new venture, "Tea x Tops Snack Yard." This unique store, operating from the comfort of his backyard, offers a delightful selection of snacks and refreshing milk tea drinks. To capture the essence of their backyard oasis, I created a logo using Adobe Photoshop that incorporates elements evocative of a relaxing outdoor space. The specific visuals I incorporated, like fences, leaves, or even snacks and drinks themselves, enhance the backyard theme. With playful yet professional fonts and inviting colors, and through collaboration and revisions with Daven, this logo will visually represent his backyard haven and entice customers to experience it for themselves.</p>
-              <p className="mt-6 text-sm"><strong className="text-white">Tools Used:</strong> Adobe Photoshop</p>
             </div>
           </div>
           

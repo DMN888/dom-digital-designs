@@ -22,21 +22,21 @@ export default function RayjuveShopify() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/1qEAnK2.png" 
               alt="Gallery Image 1" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/akm3Ora.jpg" 
               alt="Gallery Image 2" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/fdllkKg.png" 
               alt="Gallery Image 3" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
@@ -47,8 +47,96 @@ export default function RayjuveShopify() {
           <div className="md:col-span-2 space-y-8 text-[#a1a1aa] leading-relaxed">
             <div>
               <h3 className="text-2xl font-bold text-white mb-4">Project Overview</h3>
-              <p>As a graphic designer at Rayjuve, I contribute visually to the brand's mission of providing high-quality red light therapy products. I design various visual elements for the website, including the homepage banner, logo, and favicon. Additionally, I create lifestyle images, mockups for product presentations, and product listings. To further enhance the website's content, I write and design thumbnails for articles and landing pages. Through these visual and textual contributions, I help establish a cohesive and informative online presence for Rayjuve.</p>
-              <p className="mt-6 text-sm"><strong className="text-white">Tools Used:</strong> Adobe Photoshop</p>
+              <p className="mb-8">As a graphic designer at Rayjuve, I contribute visually to the brand's mission of providing high-quality red light therapy products. I design various visual elements for the website, including the homepage banner, logo, and favicon. Additionally, I create lifestyle images, mockups for product presentations, and product listings. To further enhance the website's content, I write and design thumbnails for articles and landing pages. Through these visual and textual contributions, I help establish a cohesive and informative online presence for Rayjuve.</p>
+              
+              <h3 className="text-2xl font-bold text-white mb-4 mt-12">Homepage Banner</h3>
+              <div className="grid grid-cols-1 gap-6">
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/N0c9yLG.png" alt="Homepage Banner 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/Q495Gdh.png" alt="Homepage Banner 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/8XKd1iy.png" alt="Homepage Banner 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/GBoRr88.png" alt="Homepage Banner 4" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/f7kJlYe.png" alt="Homepage Banner 5" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
+
+              <h3 className="text-2xl font-bold text-white mb-4 mt-12">Logo Design</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/24EohQ4.png" alt="Logo Design 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/dAAtawO.png" alt="Logo Design 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/akm3Ora.jpg" alt="Logo Design 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
+
+              <h3 className="text-2xl font-bold text-white mb-4 mt-12">Article Thumbnail</h3>
+              <div className="grid grid-cols-1 gap-6">
+                <div className="aspect-[9/5] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/eNcrOX8.png" alt="Article Thumbnail 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[9/5] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/yKX9LdO.png" alt="Article Thumbnail 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[9/5] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/578nBUa.png" alt="Article Thumbnail 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
+
+              <h3 className="text-2xl font-bold text-white mb-4 mt-12">Lifestyle Mockup</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/AtZmhAh.png" alt="Lifestyle Mockup 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/NYIHXkm.png" alt="Lifestyle Mockup 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/4NdmUTS.png" alt="Lifestyle Mockup 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/Qol9NBU.png" alt="Lifestyle Mockup 4" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
+
+              <h3 className="text-2xl font-bold text-white mb-4 mt-12">Product Listing</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="aspect-[5/3] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/JnUiA7i.png" alt="Product Listing 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[5/3] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/gvtgFfP.png" alt="Product Listing 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[5/3] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/kHAeMQo.png" alt="Product Listing 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[5/3] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/0nqPI0z.png" alt="Product Listing 4" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[5/3] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/NOqZtei.png" alt="Product Listing 5" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[5/3] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/UMfVtRu.png" alt="Product Listing 6" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[5/3] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/UMfVtRu.png" alt="Product Listing 7" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[5/3] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/UMfVtRu.png" alt="Product Listing 8" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
             </div>
           </div>
           

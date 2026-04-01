@@ -22,21 +22,21 @@ export default function KOGLogo() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/cjJLjl5.jpg" 
               alt="Gallery Image 1" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/1qpuYC2.jpg" 
               alt="Gallery Image 2" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/N2t1Bk9.jpg" 
               alt="Gallery Image 3" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
@@ -48,7 +48,6 @@ export default function KOGLogo() {
             <div>
               <h3 className="text-2xl font-bold text-white mb-4">Project Overview</h3>
               <p>This project involved creating a logo for "Keep Your Vision On God" (KOG). The client provided a sketch, which I then meticulously traced using Adobe Photoshop to create a polished digital version. To enhance the logo's visual appeal and align with the concept of divinity, I incorporated elegant gold effects, adding a touch of sophistication and symbolism. The final design encapsulates the essence of the organization's mission, reflecting both its spiritual focus and professional presentation.</p>
-              <p className="mt-6 text-sm"><strong className="text-white">Tools Used:</strong> Adobe Photoshop</p>
             </div>
           </div>
           

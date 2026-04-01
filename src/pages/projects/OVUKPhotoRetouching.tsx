@@ -22,21 +22,21 @@ export default function OVUKPhotoRetouching() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/eXl6nZA.png" 
               alt="Gallery Image 1" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/VsJc2kF.png" 
               alt="Gallery Image 2" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/KQ68v5G.png" 
               alt="Gallery Image 3" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
@@ -47,8 +47,29 @@ export default function OVUKPhotoRetouching() {
           <div className="md:col-span-2 space-y-8 text-[#a1a1aa] leading-relaxed">
             <div>
               <h3 className="text-2xl font-bold text-white mb-4">Project Overview</h3>
-              <p>This project involved modernizing the visual environment of the OVUK office through photo enhancement. I utilized various editing techniques, such as color adjustments, retouching, and removal of unwanted elements like wiring. Additionally, I employed a strategic cleaning process to visually highlight key areas within the office. To achieve a modern aesthetic, I converted the images to a black and white theme and incorporated virtual LED lights at the corner junctions of walls and ceilings. This comprehensive visual makeover aimed to create a more contemporary and visually appealing workspace for the OVUK team.</p>
-              <p className="mt-6 text-sm"><strong className="text-white">Tools Used:</strong> Adobe Photoshop</p>
+              <p className="mb-8">This project involved modernizing the visual environment of the OVUK office through photo enhancement. I utilized various editing techniques, such as color adjustments, retouching, and removal of unwanted elements like wiring. Additionally, I employed a strategic cleaning process to visually highlight key areas within the office. To achieve a modern aesthetic, I converted the images to a black and white theme and incorporated virtual LED lights at the corner junctions of walls and ceilings. This comprehensive visual makeover aimed to create a more contemporary and visually appealing workspace for the OVUK team.</p>
+              
+              <h3 className="text-2xl font-bold text-white mb-4 mt-12">Photo Retouching</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/X38GKIA.png" alt="Photo Retouching 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/YIrJ33V.png" alt="Photo Retouching 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/aXOUZtU.png" alt="Photo Retouching 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/gffkNk1.png" alt="Photo Retouching 4" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/ERzhUxV.png" alt="Photo Retouching 5" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/duJ1xZl.png" alt="Photo Retouching 6" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
             </div>
           </div>
           

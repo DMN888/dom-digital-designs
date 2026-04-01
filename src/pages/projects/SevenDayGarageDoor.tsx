@@ -22,21 +22,21 @@ export default function SevenDayGarageDoor() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/A7qXGJI.png" 
               alt="Gallery Image 1" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/E5V9UO4.jpg" 
               alt="Gallery Image 2" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/RcR3Bpa.png" 
               alt="Gallery Image 3" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
@@ -47,8 +47,58 @@ export default function SevenDayGarageDoor() {
           <div className="md:col-span-2 space-y-8 text-[#a1a1aa] leading-relaxed">
             <div>
               <h3 className="text-2xl font-bold text-white mb-4">Project Overview</h3>
-              <p>Inspired by the vision and identity of my client, this mockup seamlessly integrates bold graphics, vibrant colors, and dynamic elements, transforming any vehicle into a moving work of art. With meticulous attention to detail, I have crafted a design that not only aligns with the brand's aesthetic but also enhances its visibility and impact. Whether cruising through city streets or parked at events, this car wrap mockup serves as a powerful tool for brand promotion, ensuring that the essence of the brand is communicated vividly and memorably. Let's hit the road together and turn your brand into a mobile masterpiece.</p>
-              <p className="mt-6 text-sm"><strong className="text-white">Tools Used:</strong> Adobe Photoshop and Canva</p>
+              <p className="mb-8">Inspired by the vision and identity of my client, this mockup seamlessly integrates bold graphics, vibrant colors, and dynamic elements, transforming any vehicle into a moving work of art. With meticulous attention to detail, I have crafted a design that not only aligns with the brand's aesthetic but also enhances its visibility and impact. Whether cruising through city streets or parked at events, this car wrap mockup serves as a powerful tool for brand promotion, ensuring that the essence of the brand is communicated vividly and memorably. Let's hit the road together and turn your brand into a mobile masterpiece.</p>
+              
+              <h3 className="text-2xl font-bold text-white mb-4 mt-12">Logo Design</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/A7qXGJI.png" alt="Logo Design 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/ychuJ29.png" alt="Logo Design 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/ZA9tlIg.png" alt="Logo Design 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/VtAyHms.png" alt="Logo Design 4" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/Sgs51k5.png" alt="Logo Design 5" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/HbOxjvE.png" alt="Logo Design 6" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
+
+              <h3 className="text-2xl font-bold text-white mb-4 mt-12">Mockups</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/RcR3Bpa.png" alt="Mockup 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/zMvJaW9.jpg" alt="Mockup 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/4bVhMao.jpg" alt="Mockup 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/MW698pa.jpg" alt="Mockup 4" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/E5V9UO4.jpg" alt="Mockup 5" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/67E6wTV.png" alt="Mockup 6" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
+
+              <h3 className="text-2xl font-bold text-white mb-4 mt-12">Brand Kit Presentation</h3>
+              <div className="grid grid-cols-1 gap-6">
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/N1U3fMo.png" alt="Brand Kit Presentation" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
             </div>
           </div>
           

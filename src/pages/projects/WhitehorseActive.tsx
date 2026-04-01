@@ -22,21 +22,21 @@ export default function WhitehorseActive() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/aT9TT2g.png" 
               alt="Gallery Image 1" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/7nHT772.png" 
               alt="Gallery Image 2" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/pLJK6V7.png" 
               alt="Gallery Image 3" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
@@ -47,8 +47,37 @@ export default function WhitehorseActive() {
           <div className="md:col-span-2 space-y-8 text-[#a1a1aa] leading-relaxed">
             <div>
               <h3 className="text-2xl font-bold text-white mb-4">Project Overview</h3>
-              <p>In collaboration with Whitehorse Active, a dynamic and innovative fashion brand. As a graphic designer, I am tasked with translating the brand's identity into captivating visuals that resonate with its audience. By seamlessly integrating design elements into the photography, we aim to create a cohesive and immersive experience that showcases White Horse Active's commitment to style, quality, and authenticity. From conceptualizing visual themes to refining the final images, this project aims to redefine the brand's visual language and establish a powerful and memorable presence in the competitive fashion landscape.</p>
-              <p className="mt-6 text-sm"><strong className="text-white">Tools Used:</strong> Adobe Photoshop</p>
+              <p className="mb-8">In collaboration with Whitehorse Active, a dynamic and innovative fashion brand. As a graphic designer, I am tasked with translating the brand's identity into captivating visuals that resonate with its audience. By seamlessly integrating design elements into the photography, we aim to create a cohesive and immersive experience that showcases White Horse Active's commitment to style, quality, and authenticity. From conceptualizing visual themes to refining the final images, this project aims to redefine the brand's visual language and establish a powerful and memorable presence in the competitive fashion landscape.</p>
+              
+              <div className="grid grid-cols-1 gap-6">
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/Lp7TaoZ.png" alt="Whitehorse Active 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/0NcM6KF.png" alt="Whitehorse Active 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/RIHzqjm.png" alt="Whitehorse Active 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/hldUDWm.png" alt="Whitehorse Active 4" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/qLZUM1N.jpg" alt="Whitehorse Active 5" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/tiEHeUn.png" alt="Whitehorse Active 6" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/vTa6qw0.png" alt="Whitehorse Active 7" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/lakTgQZ.png" alt="Whitehorse Active 8" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/1] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/9YJWglb.png" alt="Whitehorse Active 9" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
             </div>
           </div>
           

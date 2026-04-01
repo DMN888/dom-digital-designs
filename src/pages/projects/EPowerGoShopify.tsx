@@ -22,21 +22,21 @@ export default function EPowerGoShopify() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/lBUGq2B.png" 
               alt="Gallery Image 1" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/cnywHTM.jpg" 
               alt="Gallery Image 2" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
             <img 
-              src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=600&auto=format&fit=crop" 
+              src="https://i.imgur.com/Jdk3Nsf.png" 
               alt="Gallery Image 3" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
@@ -47,8 +47,36 @@ export default function EPowerGoShopify() {
           <div className="md:col-span-2 space-y-8 text-[#a1a1aa] leading-relaxed">
             <div>
               <h3 className="text-2xl font-bold text-white mb-4">Project Overview</h3>
-              <p>During my time as a graphic designer at ePowerGo, I wore multiple hats, contributing both visually and textually to their brand. I crafted engaging visuals for their online presence, including article thumbnails, category images, and product listing images. Additionally, I wrote content for their articles, designed landing pages, and managed their email marketing efforts using Klaviyo. This involved creating, scheduling, and managing email campaigns, as well as crafting email flowcharts to ensure smooth communication with their audience. By combining my visual and content creation skills, I helped ePowerGo connect with customers and showcase their innovative smart home products.</p>
-              <p className="mt-6 text-sm"><strong className="text-white">Tools Used:</strong> Adobe Photoshop</p>
+              <p className="mb-8">During my time as a graphic designer at ePowerGo, I wore multiple hats, contributing both visually and textually to their brand. I crafted engaging visuals for their online presence, including article thumbnails, category images, and product listing images. Additionally, I wrote content for their articles, designed landing pages, and managed their email marketing efforts using Klaviyo. This involved creating, scheduling, and managing email campaigns, as well as crafting email flowcharts to ensure smooth communication with their audience. By combining my visual and content creation skills, I helped ePowerGo connect with customers and showcase their innovative smart home products.</p>
+              
+              <h3 className="text-2xl font-bold text-white mb-4 mt-12">Email Campaign</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/cnywHTM.jpg" alt="Email Campaign 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/tazsjGi.png" alt="Email Campaign 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/Jdk3Nsf.png" alt="Email Campaign 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
+
+              <h3 className="text-2xl font-bold text-white mb-4 mt-12">Article Thumbnail</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="aspect-[16/9] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/FVViB2m.png" alt="Article Thumbnail 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[16/9] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/HxwpJep.png" alt="Article Thumbnail 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[16/9] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/7ROJ5XP.png" alt="Article Thumbnail 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[16/9] w-full overflow-hidden rounded-2xl border border-[#333]">
+                  <img src="https://i.imgur.com/Bauscc6.png" alt="Article Thumbnail 4" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
             </div>
           </div>
           

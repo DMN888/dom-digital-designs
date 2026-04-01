@@ -70,7 +70,7 @@ export default function Home() {
             <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
               <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
                 <img 
-                  src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=600&auto=format&fit=crop" 
+                  src="https://i.imgur.com/SAuLi0o.png" 
                   alt="Tea x Tops Logo" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -90,7 +90,7 @@ export default function Home() {
             <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
               <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
                 <img 
-                  src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?q=80&w=600&auto=format&fit=crop" 
+                  src="https://i.imgur.com/MRRMRxy.png" 
                   alt="J&T Riders Uniform" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -110,7 +110,7 @@ export default function Home() {
             <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
               <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
                 <img 
-                  src="https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=600&auto=format&fit=crop" 
+                  src="https://i.imgur.com/cjJLjl5.jpg" 
                   alt="KOG Logo" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -130,7 +130,7 @@ export default function Home() {
             <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
               <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
                 <img 
-                  src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=600&auto=format&fit=crop" 
+                  src="https://i.imgur.com/7nHT772.png" 
                   alt="Whitehorse Active" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -150,7 +150,7 @@ export default function Home() {
             <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
               <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
                 <img 
-                  src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?q=80&w=600&auto=format&fit=crop" 
+                  src="https://i.imgur.com/1qEAnK2.png" 
                   alt="Rayjuve Shopify" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -181,30 +181,56 @@ export default function Home() {
       {/* Expertise Section */}
       <section className="w-full bg-[#0a0a0a] border-y border-[#333] text-white py-32 mb-40">
         <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-2xl font-semibold tracking-tight mb-12">Expertise</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8">
+          <h2 className="text-2xl font-semibold tracking-tight mb-16">Expertise</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
             {/* Block 1 */}
-            <div className="lg:col-span-5 flex flex-col justify-center">
+            <div className="flex flex-col justify-start">
               <div className="border-l-2 border-[#FFCE10] pl-6 py-2">
-                <h3 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 uppercase">Web Design</h3>
-                <p className="text-xl text-[#a1a1aa] leading-relaxed font-light">
-                  I design clean, modern interfaces that your users will actually love.
+                <h3 className="text-2xl md:text-3xl font-bold tracking-tight mb-4 uppercase">Advanced Image Editing</h3>
+                <p className="text-lg text-[#a1a1aa] leading-relaxed font-light mb-4">
+                  High-level photo manipulation and editing to bring creative visions to life with precision.
+                </p>
+                <p className="text-sm text-[#71717a] font-medium uppercase tracking-wider leading-relaxed">
+                  Photo Manipulation & Compositing • High-End Retouching & Cleanup • Color Correction • AI-Assisted Generation
                 </p>
               </div>
             </div>
-            
-            {/* Divider for mobile */}
-            <div className="hidden lg:block lg:col-span-2 relative">
-               <div className="absolute left-1/2 top-0 bottom-0 w-px bg-[#333] -translate-x-1/2"></div>
-            </div>
-            <div className="block lg:hidden w-full h-px bg-[#333]"></div>
 
             {/* Block 2 */}
-            <div className="lg:col-span-5 flex flex-col justify-center">
+            <div className="flex flex-col justify-start">
               <div className="border-l-2 border-[#FFCE10] pl-6 py-2">
-                <h3 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 uppercase">WordPress Development</h3>
-                <p className="text-xl text-[#a1a1aa] leading-relaxed font-light">
-                  I build high-quality, lightning-fast websites that convert.
+                <h3 className="text-2xl md:text-3xl font-bold tracking-tight mb-4 uppercase">Digital Ads & Video</h3>
+                <p className="text-lg text-[#a1a1aa] leading-relaxed font-light mb-4">
+                  Creating scroll-stopping video content and persuasive graphics for social media and advertising.
+                </p>
+                <p className="text-sm text-[#71717a] font-medium uppercase tracking-wider leading-relaxed">
+                  Video Editing • Reels & Short-Form Content • Social Media Ad Creatives • YouTube Thumbnails
+                </p>
+              </div>
+            </div>
+
+            {/* Block 3 */}
+            <div className="flex flex-col justify-start">
+              <div className="border-l-2 border-[#FFCE10] pl-6 py-2">
+                <h3 className="text-2xl md:text-3xl font-bold tracking-tight mb-4 uppercase">Branding & Merch</h3>
+                <p className="text-lg text-[#a1a1aa] leading-relaxed font-light mb-4">
+                  Crafting cohesive brand identities for both digital platforms and physical products.
+                </p>
+                <p className="text-sm text-[#71717a] font-medium uppercase tracking-wider leading-relaxed">
+                  Logo Creation & Guidelines • Apparel & Graphic Tees • Product Packaging & Mockups • Print Materials
+                </p>
+              </div>
+            </div>
+
+            {/* Block 4 */}
+            <div className="flex flex-col justify-start">
+              <div className="border-l-2 border-[#FFCE10] pl-6 py-2">
+                <h3 className="text-2xl md:text-3xl font-bold tracking-tight mb-4 uppercase">Web Layouts & UI</h3>
+                <p className="text-lg text-[#a1a1aa] leading-relaxed font-light mb-4">
+                  Translating visual assets into clean, functional, and user-friendly website layouts.
+                </p>
+                <p className="text-sm text-[#71717a] font-medium uppercase tracking-wider leading-relaxed">
+                  WordPress & Elementor • Shopify Storefronts • Google Sites • UI/UX Design Layouts
                 </p>
               </div>
             </div>
