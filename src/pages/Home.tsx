@@ -10,7 +10,7 @@ export default function Home() {
           {/* Left Column: Text */}
           <div className="flex flex-col justify-center items-start">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter leading-[1.1] mb-8">
-              Hi, I'm Dom. Freelance Graphic Designer.
+              Hi, I'm Dom. Professional Graphic Designer.
             </h1>
             <p className="text-xl md:text-2xl text-[#a1a1aa] leading-relaxed mb-12 font-light">
               Passion for visual storytelling and creating impactful designs.

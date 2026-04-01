@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
-import { Linkedin, Mail, Twitter, ArrowRight } from "lucide-react";
+import { Linkedin, Mail, Briefcase, ArrowRight } from "lucide-react";
 
 export default function Layout() {
   return (
@@ -16,7 +16,6 @@ export default function Layout() {
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-[#a1a1aa]">
             <Link to="/" className="hover:text-white transition-colors">Home</Link>
             <Link to="/work" className="hover:text-white transition-colors">Work</Link>
-            <Link to="/services" className="hover:text-white transition-colors">Services</Link>
             <Link to="/contact" className="hover:text-white transition-colors">Contact</Link>
           </div>
         </div>
@@ -49,14 +48,14 @@ export default function Layout() {
             © {new Date().getFullYear()} Dom Digital Design | Think Less, Create More.
           </p>
           <div className="flex items-center gap-6 text-[#a1a1aa]">
-            <a href="#" className="hover:text-[#FFCE10] transition-colors" aria-label="LinkedIn">
-              <Linkedin className="w-5 h-5" />
-            </a>
-            <a href="#" className="hover:text-[#FFCE10] transition-colors" aria-label="Twitter">
-              <Twitter className="w-5 h-5" />
-            </a>
-            <a href="#" className="hover:text-[#FFCE10] transition-colors" aria-label="Email">
+            <a href="mailto:dominictomlod@gmail.com" className="hover:text-[#FFCE10] transition-colors" aria-label="Email">
               <Mail className="w-5 h-5" />
+            </a>
+            <a href="https://upwork.com/freelancers/johndominictomlod" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFCE10] transition-colors" aria-label="Upwork">
+              <Briefcase className="w-5 h-5" />
+            </a>
+            <a href="https://www.linkedin.com/in/john-dominic-tomlod/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFCE10] transition-colors" aria-label="LinkedIn">
+              <Linkedin className="w-5 h-5" />
             </a>
           </div>
         </div>

@@ -8,7 +8,6 @@ import Layout from "./components/Layout";
 import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
-import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 
 // Project Pages
@@ -38,7 +37,6 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="work" element={<Work />} />
-          <Route path="services" element={<Services />} />
           <Route path="contact" element={<Contact />} />
           
           {/* Project Routes */}
