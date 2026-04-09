@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import projectsData from "../data/projects.json";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
           <div className="relative group w-full max-w-md mx-auto lg:max-w-none">
             <div className="aspect-[4/5] overflow-hidden rounded-2xl border border-[#333] transition-all duration-500 group-hover:border-[#FFCE10]/50 group-hover:shadow-[0_0_40px_-10px_rgba(255,206,16,0.3)]">
               <img
-                src="https://i.imgur.com/S907PNL.png"
+                src="https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668299/dominic-portrait_zeimu6.png"
                 alt="Dom - Web Designer"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale contrast-125 brightness-90 transition-all duration-500 group-hover:grayscale-0 group-hover:contrast-100 group-hover:brightness-100"
@@ -46,125 +47,26 @@ export default function Home() {
             <h2 className="text-2xl font-semibold tracking-tight">Featured Projects</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Card 1 */}
-            <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
-              <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
-                <img 
-                  src="https://i.imgur.com/sXBEDnW.png" 
-                  alt="Aqua 67 Shopify" 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+            {projectsData.slice(0, 6).map((project) => (
+              <div key={project.id} className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
+                <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
+                  <img 
+                    src={project.mainGallery && project.mainGallery.length > 0 ? project.mainGallery[0] : ''} 
+                    alt={project.title} 
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <div className="mb-4">
+                  <span className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5">
+                    {project.category}
+                  </span>
+                </div>
+                <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">{project.title}</h3>
+                <Link to={`/project/${project.id}`} className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors mt-auto">
+                  View project <ArrowRight className="w-4 h-4" />
+                </Link>
               </div>
-              <div className="mb-4">
-                <span className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5">
-                  E-Commerce
-                </span>
-              </div>
-              <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">Aqua 67 Shopify</h3>
-              <Link to="/work/aqua-67" className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors mt-auto">
-                View project <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-
-            {/* Card 2 */}
-            <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
-              <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
-                <img 
-                  src="https://i.imgur.com/SAuLi0o.png" 
-                  alt="Tea x Tops Logo" 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="mb-4">
-                <span className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5">
-                  Logo Design
-                </span>
-              </div>
-              <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">Tea x Tops Logo</h3>
-              <Link to="/work/tea-x-tops-logo" className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors mt-auto">
-                View project <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-
-            {/* Card 3 */}
-            <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
-              <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
-                <img 
-                  src="https://i.imgur.com/MRRMRxy.png" 
-                  alt="J&T Riders Uniform" 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="mb-4">
-                <span className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5">
-                  Apparel Design
-                </span>
-              </div>
-              <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">J&T Riders Uniform</h3>
-              <Link to="/work/jnt-riders-uniform" className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors mt-auto">
-                View project <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-            
-            {/* Card 4 */}
-            <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
-              <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
-                <img 
-                  src="https://i.imgur.com/cjJLjl5.jpg" 
-                  alt="KOG Logo" 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="mb-4">
-                <span className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5">
-                  Logo Design
-                </span>
-              </div>
-              <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">KOG Logo</h3>
-              <Link to="/work/kog-logo" className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors mt-auto">
-                View project <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-
-            {/* Card 5 */}
-            <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
-              <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
-                <img 
-                  src="https://i.imgur.com/7nHT772.png" 
-                  alt="Whitehorse Active" 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="mb-4">
-                <span className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5">
-                  Photo Retouching
-                </span>
-              </div>
-              <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">Whitehorse Active</h3>
-              <Link to="/work/whitehorse-active" className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors mt-auto">
-                View project <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-
-            {/* Card 6 */}
-            <div className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
-              <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
-                <img 
-                  src="https://i.imgur.com/1qEAnK2.png" 
-                  alt="Rayjuve Shopify" 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="mb-4">
-                <span className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5">
-                  E-Commerce
-                </span>
-              </div>
-              <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">Rayjuve Shopify</h3>
-              <Link to="/work/rayjuve-shopify" className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors mt-auto">
-                View project <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
+            ))}
           </div>
 
           <div className="mt-16 text-center">
