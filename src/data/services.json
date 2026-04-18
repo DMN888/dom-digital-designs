@@ -1,0 +1,62 @@
+[
+  {
+    "id": "logo-design",
+    "name": "Logo Design",
+    "description": "Crafting memorable, timeless core visual identities that uniquely represent your brand."
+  },
+  {
+    "id": "brand-collateral",
+    "name": "Brand Collateral",
+    "description": "Designing cohesive physical and digital materials to support your brand's presence."
+  },
+  {
+    "id": "static-creatives",
+    "name": "Static Creatives",
+    "description": "High-converting image ads, flyers, and standalone visual assets for digital marketing."
+  },
+  {
+    "id": "asset-visualization",
+    "name": "Asset Visualization",
+    "description": "Bringing concepts and designs to life with photorealistic mockups and presentations."
+  },
+  {
+    "id": "lifestyle-imagery",
+    "name": "Lifestyle Imagery",
+    "description": "Capturing and curating authentic real-world contexts for your products and services."
+  },
+  {
+    "id": "ai-image-generation",
+    "name": "AI Image Generation",
+    "description": "Leveraging advanced AI tools to produce breathtaking visuals and synthetic photography."
+  },
+  {
+    "id": "brand-strategy",
+    "name": "Brand Strategy",
+    "description": "Defining the foundational guidelines, messaging, and visual rules for long-term brand success."
+  },
+  {
+    "id": "motion-creatives",
+    "name": "Motion Creatives",
+    "description": "Creating engaging video ads, intros, and dynamic content that captures attention."
+  },
+  {
+    "id": "background-removal",
+    "name": "Background Removal",
+    "description": "Providing clean, precise extractions and transparent cutouts for perfect product placement."
+  },
+  {
+    "id": "e-commerce",
+    "name": "E-Commerce",
+    "description": "Optimizing product visuals across storefronts to drive trust and maximize conversion rates."
+  },
+  {
+    "id": "asset-evaluation",
+    "name": "Asset Evaluation",
+    "description": "Auditing internal visual materials and designs for brand consistency and impact."
+  },
+  {
+    "id": "thumbnail-design",
+    "name": "Thumbnail Design",
+    "description": "Designing click-driving, high-contrast thumbnails tailored for video platforms."
+  }
+]

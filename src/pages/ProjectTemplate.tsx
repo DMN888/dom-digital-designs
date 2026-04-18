@@ -18,9 +18,21 @@ export default function ProjectTemplate() {
         </Link>
         
         <div className="mb-16">
-          <span className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5 mb-6">
-            {project.category}
-          </span>
+          <div className="flex flex-wrap gap-2 mb-6">
+            {project.category.split('; ').map((cat, idx) => {
+              if (!cat) return null;
+              const slug = cat.toLowerCase().replace(/ /g, '-');
+              return (
+                <Link
+                  key={idx}
+                  to={`/services/${slug}`}
+                  className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5 hover:bg-[#FFCE10] hover:text-[#0a0a0a] transition-colors"
+                >
+                  {cat}
+                </Link>
+              );
+            })}
+          </div>
           <h1 className="text-5xl md:text-6xl font-bold tracking-tighter mb-6">{project.title}</h1>
           <p className="text-xl text-[#a1a1aa] max-w-2xl font-light">
             {project.description}
@@ -48,10 +60,49 @@ export default function ProjectTemplate() {
                 <h3 className="text-2xl font-bold text-white mb-4">{section.title}</h3>
                 <p className="mb-6">{section.description}</p>
                 {section.images && section.images.length > 0 && (
-                  <div className={`grid grid-cols-1 ${section.images.length > 1 ? 'md:grid-cols-3' : ''} gap-6`}>
+                  <div className={`grid grid-cols-1 ${
+                    /* @ts-ignore */
+                    section.columns === 3 ? 'md:grid-cols-3' :
+                    /* @ts-ignore */
+                    section.columns === 2 ? 'md:grid-cols-2' : 
+                    /* @ts-ignore */
+                    section.columns === 1 ? 'md:grid-cols-1' :
+                    section.images.length > 1 ? 'md:grid-cols-3' : ''
+                  } gap-6`}>
                     {section.images.map((img, imgIdx) => (
-                      <div key={imgIdx} className={`w-full overflow-hidden rounded-2xl border border-[#333] ${section.images.length > 1 ? 'aspect-square' : 'aspect-[25/10]'}`}>
+                      <div key={imgIdx} className={`w-full overflow-hidden rounded-2xl border border-[#333] ${
+                        /* @ts-ignore */
+                        section.aspectRatio ? section.aspectRatio :
+                        /* @ts-ignore */
+                        section.columns ? 'aspect-square' :
+                        section.images.length > 1 ? 'aspect-square' : 'aspect-[25/10]'
+                      }`}>
                         <img src={img} alt={`${section.title} ${imgIdx + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {/* @ts-ignore - dynamic property */}
+                {section.videos && section.videos.length > 0 && (
+                  <div className={`grid grid-cols-1 ${
+                    /* @ts-ignore */
+                    section.columns === 3 ? 'md:grid-cols-3' :
+                    /* @ts-ignore */
+                    section.columns === 2 ? 'md:grid-cols-2' : 
+                    /* @ts-ignore */
+                    section.columns === 1 ? 'md:grid-cols-1' :
+                    section.videos.length > 2 ? 'md:grid-cols-3' : 
+                    section.videos.length === 2 ? 'md:grid-cols-2' : ''
+                  } gap-6 mt-6`}>
+                    {/* @ts-ignore - dynamic property */}
+                    {section.videos.map((vid, vidIdx) => (
+                      <div key={vidIdx} className="w-full overflow-hidden rounded-2xl border border-[#333] bg-[#141414]">
+                        <video 
+                          src={vid} 
+                          controls 
+                          playsInline
+                          className="w-full h-full object-cover" 
+                        />
                       </div>
                     ))}
                   </div>
@@ -61,7 +112,7 @@ export default function ProjectTemplate() {
                   <div className="mt-6">
                     <div className="w-full overflow-hidden rounded-2xl border border-[#333] aspect-[16/9] bg-[#141414] mb-4">
                       {/* @ts-ignore */}
-                      <iframe src={`https://docs.google.com/viewer?url=${encodeURIComponent(section.pdf)}&embedded=true`} className="w-full h-full" title={section.title} />
+                      <iframe src={`${section.pdf}#toolbar=0`} className="w-full h-full" title={section.title} />
                     </div>
                     <div className="flex justify-end">
                       {/* @ts-ignore */}

@@ -23,10 +23,20 @@ export default function Work() {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
-              <div className="mb-4">
-                <span className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5">
-                  {project.category}
-                </span>
+              <div className="mb-4 flex flex-wrap gap-2">
+                {project.category.split('; ').map((cat, idx) => {
+                  if (!cat) return null;
+                  const slug = cat.toLowerCase().replace(/ /g, '-');
+                  return (
+                    <Link
+                      key={idx}
+                      to={`/services/${slug}`}
+                      className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5 hover:bg-[#FFCE10] hover:text-[#0a0a0a] transition-colors"
+                    >
+                      {cat}
+                    </Link>
+                  );
+                })}
               </div>
               <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">{project.title}</h3>
               <Link to={`/project/${project.id}`} className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors mt-auto">

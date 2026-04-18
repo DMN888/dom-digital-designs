@@ -10,6 +10,8 @@ import Home from "./pages/Home";
 import Work from "./pages/Work";
 import Contact from "./pages/Contact";
 import ProjectTemplate from "./pages/ProjectTemplate";
+import Services from "./pages/Services";
+import ServiceDetail from "./pages/ServiceDetail";
 
 export default function App() {
   return (
@@ -19,7 +21,10 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="work" element={<Work />} />
+          <Route path="services" element={<Services />} />
+          <Route path="services/:serviceSlug" element={<ServiceDetail />} />
           <Route path="contact" element={<Contact />} />
+
           
           {/* Dynamic Project Route */}
           <Route path="project/:id" element={<ProjectTemplate />} />

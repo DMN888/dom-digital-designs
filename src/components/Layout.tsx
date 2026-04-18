@@ -14,9 +14,10 @@ export default function Layout() {
             Dom Digital Design
           </Link>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-[#a1a1aa]">
-            <Link to="/" className="hover:text-white transition-colors">Home</Link>
-            <Link to="/work" className="hover:text-white transition-colors">Work</Link>
-            <Link to="/contact" className="hover:text-white transition-colors">Contact</Link>
+            <Link to="/" className="hover:text-[#FFCE10] transition-colors">Home</Link>
+            <Link to="/work" className="hover:text-[#FFCE10] transition-colors">Work</Link>
+            <Link to="/services" className="hover:text-[#FFCE10] transition-colors">Services</Link>
+            <Link to="/contact" className="hover:text-[#FFCE10] transition-colors">Contact</Link>
           </div>
         </div>
       </nav>

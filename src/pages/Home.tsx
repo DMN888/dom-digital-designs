@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import projectsData from "../data/projects.json";
+import servicesData from "../data/services.json";
 
 export default function Home() {
   return (
@@ -56,10 +57,20 @@ export default function Home() {
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
-                <div className="mb-4">
-                  <span className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5">
-                    {project.category}
-                  </span>
+                <div className="mb-4 flex flex-wrap gap-2">
+                  {project.category.split('; ').map((cat, idx) => {
+                    if (!cat) return null;
+                    const slug = cat.toLowerCase().replace(/ /g, '-');
+                    return (
+                      <Link
+                        key={idx}
+                        to={`/services/${slug}`}
+                        className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5 hover:bg-[#FFCE10] hover:text-[#0a0a0a] transition-colors"
+                      >
+                        {cat}
+                      </Link>
+                    );
+                  })}
                 </div>
                 <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">{project.title}</h3>
                 <Link to={`/project/${project.id}`} className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors mt-auto">
@@ -84,58 +95,31 @@ export default function Home() {
       <section className="w-full bg-[#0a0a0a] border-y border-[#333] text-white py-32 mb-40">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-2xl font-semibold tracking-tight mb-16">Expertise</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
-            {/* Block 1 */}
-            <div className="flex flex-col justify-start">
-              <div className="border-l-2 border-[#FFCE10] pl-6 py-2">
-                <h3 className="text-2xl md:text-3xl font-bold tracking-tight mb-4 uppercase">Advanced Image Editing</h3>
-                <p className="text-lg text-[#a1a1aa] leading-relaxed font-light mb-4">
-                  High-level photo manipulation and editing to bring creative visions to life with precision.
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {servicesData.slice(0, 6).map((service) => (
+              <Link 
+                key={service.id}
+                to={`/services/${service.id}`}
+                className="group block p-8 rounded-3xl bg-[#141414] border border-[#333] hover:border-[#FFCE10]/50 transition-all duration-300 relative overflow-hidden"
+              >
+                <h3 className="text-2xl font-bold tracking-tight mb-4 group-hover:text-[#FFCE10] transition-colors">{service.name}</h3>
+                <p className="text-base text-[#a1a1aa] leading-relaxed font-light mb-8">
+                  {service.description}
                 </p>
-                <p className="text-sm text-[#71717a] font-medium uppercase tracking-wider leading-relaxed">
-                  Photo Manipulation & Compositing • High-End Retouching & Cleanup • Color Correction • AI-Assisted Generation
-                </p>
-              </div>
-            </div>
-
-            {/* Block 2 */}
-            <div className="flex flex-col justify-start">
-              <div className="border-l-2 border-[#FFCE10] pl-6 py-2">
-                <h3 className="text-2xl md:text-3xl font-bold tracking-tight mb-4 uppercase">Digital Ads & Video</h3>
-                <p className="text-lg text-[#a1a1aa] leading-relaxed font-light mb-4">
-                  Creating scroll-stopping video content and persuasive graphics for social media and advertising.
-                </p>
-                <p className="text-sm text-[#71717a] font-medium uppercase tracking-wider leading-relaxed">
-                  Video Editing • Reels & Short-Form Content • Social Media Ad Creatives • YouTube Thumbnails
-                </p>
-              </div>
-            </div>
-
-            {/* Block 3 */}
-            <div className="flex flex-col justify-start">
-              <div className="border-l-2 border-[#FFCE10] pl-6 py-2">
-                <h3 className="text-2xl md:text-3xl font-bold tracking-tight mb-4 uppercase">Branding & Merch</h3>
-                <p className="text-lg text-[#a1a1aa] leading-relaxed font-light mb-4">
-                  Crafting cohesive brand identities for both digital platforms and physical products.
-                </p>
-                <p className="text-sm text-[#71717a] font-medium uppercase tracking-wider leading-relaxed">
-                  Logo Creation & Guidelines • Apparel & Graphic Tees • Product Packaging & Mockups • Print Materials
-                </p>
-              </div>
-            </div>
-
-            {/* Block 4 */}
-            <div className="flex flex-col justify-start">
-              <div className="border-l-2 border-[#FFCE10] pl-6 py-2">
-                <h3 className="text-2xl md:text-3xl font-bold tracking-tight mb-4 uppercase">Web Layouts & UI</h3>
-                <p className="text-lg text-[#a1a1aa] leading-relaxed font-light mb-4">
-                  Translating visual assets into clean, functional, and user-friendly website layouts.
-                </p>
-                <p className="text-sm text-[#71717a] font-medium uppercase tracking-wider leading-relaxed">
-                  WordPress & Elementor • Shopify Storefronts • Google Sites • UI/UX Design Layouts
-                </p>
-              </div>
-            </div>
+                <div className="flex items-center text-sm font-medium tracking-wider uppercase text-[#FFCE10]">
+                  View Details 
+                  <ArrowRight className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-16 text-center">
+            <Link
+              to="/services"
+              className="inline-flex items-center gap-2 border border-[#333] hover:border-[#FFCE10] text-white hover:text-[#FFCE10] px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300"
+            >
+              All Services Offered <ArrowRight className="w-5 h-5" />
+            </Link>
           </div>
         </div>
       </section>
