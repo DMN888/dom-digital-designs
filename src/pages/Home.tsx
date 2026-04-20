@@ -1,9 +1,12 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Search } from "lucide-react";
 import { Link } from "react-router-dom";
 import projectsData from "../data/projects.json";
 import servicesData from "../data/services.json";
+import { useLightbox } from "../contexts/LightboxContext";
 
 export default function Home() {
+  const { openLightbox } = useLightbox();
+
   return (
     <main className="pt-24 pb-32">
       {/* Hero Section */}
@@ -50,12 +53,24 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projectsData.slice(0, 6).map((project) => (
               <div key={project.id} className="group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-5 transition-all duration-300 hover:bg-white/10 hover:border-white/20 flex flex-col h-full overflow-hidden">
-                <div className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414]">
+                <div 
+                  className="aspect-square w-full overflow-hidden rounded-xl mb-6 bg-[#141414] relative cursor-pointer group/image"
+                  onClick={() => {
+                    if (project.mainGallery && project.mainGallery.length > 0) {
+                      openLightbox(project.mainGallery, 0);
+                    }
+                  }}
+                >
                   <img 
                     src={project.mainGallery && project.mainGallery.length > 0 ? project.mainGallery[0] : ''} 
                     alt={project.title} 
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover/image:scale-105"
                   />
+                  <div className="absolute inset-0 bg-black/0 group-hover/image:bg-black/20 transition-colors flex items-center justify-center opacity-0 group-hover/image:opacity-100 duration-300">
+                    <div className="bg-[#FFCE10] text-[#0a0a0a] p-3 rounded-full transform translate-y-4 group-hover/image:translate-y-0 transition-all duration-300">
+                      <Search className="w-5 h-5" />
+                    </div>
+                  </div>
                 </div>
                 <div className="mb-4 flex flex-wrap gap-2">
                   {project.category.split('; ').map((cat, idx) => {
@@ -72,10 +87,15 @@ export default function Home() {
                     );
                   })}
                 </div>
-                <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">{project.title}</h3>
-                <Link to={`/project/${project.id}`} className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors mt-auto">
-                  View project <ArrowRight className="w-4 h-4" />
-                </Link>
+                {/* Bottom Content Group (Forces alignment to the bottom) */}
+                <div className="mt-auto flex flex-col items-start">
+                  <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">
+                    {project.title}
+                  </h3>
+                  <Link to={`/project/${project.id}`} className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors">
+                    View project <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </div>
               </div>
             ))}
           </div>
