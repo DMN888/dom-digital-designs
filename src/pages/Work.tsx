@@ -38,8 +38,8 @@ export default function Work() {
                   );
                 })}
               </div>
-              <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">{project.title}</h3>
-              <Link to={`/project/${project.id}`} className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors mt-auto">
+              <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors mt-auto">{project.title}</h3>
+              <Link to={`/project/${project.id}`} className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors">
                 View project <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
