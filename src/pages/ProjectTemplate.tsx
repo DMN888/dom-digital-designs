@@ -1,10 +1,12 @@
-import { ArrowLeft, ExternalLink } from "lucide-react";
+import { ArrowLeft, ExternalLink, Search } from "lucide-react";
 import { Link, useParams, Navigate } from "react-router-dom";
 import projectsData from "../data/projects.json";
+import { useLightbox } from "../contexts/LightboxContext";
 
 export default function ProjectTemplate() {
   const { id } = useParams<{ id: string }>();
   const project = projectsData.find((p) => p.id === id);
+  const { openLightbox } = useLightbox();
 
   if (!project) {
     return <Navigate to="/work" replace />;
@@ -42,12 +44,21 @@ export default function ProjectTemplate() {
         {project.mainGallery && project.mainGallery.length > 0 && (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
             {project.mainGallery.map((img, idx) => (
-              <div key={idx} className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333]">
+              <div 
+                key={idx} 
+                className="aspect-square w-full overflow-hidden rounded-2xl border border-[#333] cursor-pointer group/image relative"
+                onClick={() => openLightbox(project.mainGallery || [], idx)}
+              >
                 <img 
                   src={img} 
                   alt={`Gallery Image ${idx + 1}`} 
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover/image:scale-105 transition-transform duration-500"
                 />
+                <div className="absolute inset-0 bg-black/0 group-hover/image:bg-black/20 transition-colors flex items-center justify-center opacity-0 group-hover/image:opacity-100 duration-300">
+                  <div className="bg-[#FFCE10] text-[#0a0a0a] p-3 rounded-full transform translate-y-4 group-hover/image:translate-y-0 transition-all duration-300">
+                    <Search className="w-5 h-5" />
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -70,14 +81,23 @@ export default function ProjectTemplate() {
                     section.images.length > 1 ? 'md:grid-cols-3' : ''
                   } gap-6`}>
                     {section.images.map((img, imgIdx) => (
-                      <div key={imgIdx} className={`w-full overflow-hidden rounded-2xl border border-[#333] ${
-                        /* @ts-ignore */
-                        section.aspectRatio ? section.aspectRatio :
-                        /* @ts-ignore */
-                        section.columns ? 'aspect-square' :
-                        section.images.length > 1 ? 'aspect-square' : 'aspect-[25/10]'
-                      }`}>
-                        <img src={img} alt={`${section.title} ${imgIdx + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                      <div 
+                        key={imgIdx} 
+                        className={`w-full overflow-hidden rounded-2xl border border-[#333] cursor-pointer group/image relative ${
+                          /* @ts-ignore */
+                          section.aspectRatio ? section.aspectRatio :
+                          /* @ts-ignore */
+                          section.columns ? 'aspect-square' :
+                          section.images.length > 1 ? 'aspect-square' : 'aspect-[25/10]'
+                        }`}
+                        onClick={() => openLightbox(section.images, imgIdx)}
+                      >
+                        <img src={img} alt={`${section.title} ${imgIdx + 1}`} className="w-full h-full object-cover group-hover/image:scale-105 transition-transform duration-500" />
+                        <div className="absolute inset-0 bg-black/0 group-hover/image:bg-black/20 transition-colors flex items-center justify-center opacity-0 group-hover/image:opacity-100 duration-300">
+                          <div className="bg-[#FFCE10] text-[#0a0a0a] p-3 rounded-full transform translate-y-4 group-hover/image:translate-y-0 transition-all duration-300">
+                            <Search className="w-5 h-5" />
+                          </div>
+                        </div>
                       </div>
                     ))}
                   </div>

@@ -1,5 +1,5 @@
 import { ArrowRight, Mail, MapPin, Briefcase, CheckCircle2 } from "lucide-react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Contact() {

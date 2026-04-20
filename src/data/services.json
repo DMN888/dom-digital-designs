@@ -40,19 +40,24 @@
     "description": "Creating engaging video ads, intros, and dynamic content that captures attention."
   },
   {
-    "id": "background-removal",
-    "name": "Background Removal",
-    "description": "Providing clean, precise extractions and transparent cutouts for perfect product placement."
-  },
-  {
     "id": "e-commerce",
     "name": "E-Commerce",
     "description": "Optimizing product visuals across storefronts to drive trust and maximize conversion rates."
   },
   {
-    "id": "asset-evaluation",
-    "name": "Asset Evaluation",
-    "description": "Auditing internal visual materials and designs for brand consistency and impact."
+    "id": "packaging",
+    "name": "Packaging",
+    "description": "Designing high-impact product packaging and 3D mockups that stand out on any shelf."
+  },
+  {
+    "id": "photo-retouch",
+    "name": "Photo Retouch",
+    "description": "Professional-grade image editing to enhance product features, skin tones, and overall clarity."
+  },
+  {
+    "id": "photo-manipulation",
+    "name": "Photo Manipulation",
+    "description": "Artfully combining disparate elements to create surreal, seamless, and imaginative visuals."
   },
   {
     "id": "thumbnail-design",

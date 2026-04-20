@@ -88,7 +88,7 @@ export default function Home() {
                   })}
                 </div>
                 {/* Bottom Content Group (Forces alignment to the bottom) */}
-                <div className="mt-auto flex flex-col items-start">
+                <div className="mt-auto flex flex-col items-start pt-6">
                   <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">
                     {project.title}
                   </h3>

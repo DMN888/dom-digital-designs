@@ -378,7 +378,7 @@
   {
     "id": "custom-pins-depot",
     "title": "Custom Pins Depot Ecommerce Visual",
-    "category": "Static Creatives; Background Removal; Lifestyle Imagery; Motion Creatives; E-Commerce",
+    "category": "Static Creatives; Photo Retouch; Lifestyle Imagery; Motion Creatives; E-Commerce",
     "description": "Vibrant and engaging e-commerce visual assets for Custom Pins Depot.",
     "mainGallery": [
       "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776397825/custom-pins-header-3_mpfddx.png",
@@ -418,7 +418,7 @@
         ],
         "aspectRatio": "aspect-square",
         "services": [
-          "Background Removal"
+          "Photo Retouch"
         ]
       },
       {
@@ -476,7 +476,7 @@
   {
     "id": "exquisite-millworks",
     "title": "Exquisite Millworks Branding",
-    "category": "Logo Design; Asset Evaluation; Brand Collateral; Asset Visualization; Brand Strategy",
+    "category": "Logo Design; Brand Collateral; Asset Visualization; Brand Strategy",
     "description": "Comprehensive brand identity system for Exquisite Millworks.",
     "mainGallery": [
       "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776399617/exquisite-millwork-mockup-signage_bzguvo.png",
@@ -1305,14 +1305,92 @@
   {
     "id": "rayjuve-shopify",
     "title": "Rayjuve Shopify",
-    "category": "E-Commerce",
+    "category": "Logo Design; Static Creatives; E-Commerce; Thumbnail Design; Photo Retouch",
     "description": "Graphic Design for Rayjuve E-Commerce",
     "mainGallery": [
       "https://i.imgur.com/1qEAnK2.png",
       "https://i.imgur.com/akm3Ora.jpg",
       "https://i.imgur.com/fdllkKg.png"
     ],
-    "extraSections": [],
+    "extraSections": [
+      {
+        "title": "Logo Design",
+        "description": "Distinctive brand mark designed for modern e-commerce scalability.",
+        "columns": 3,
+        "aspectRatio": "aspect-square",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668236/rayjuve-logo-2_a6wont.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668233/rayjuve-logo-1_c2m06y.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668214/rayjuve-cover-2_cci4l8.jpg"
+        ],
+        "services": [
+          "Logo Design"
+        ]
+      },
+      {
+        "title": "Article Thumbnail",
+        "description": "High-engagement thumbnail designs crafted for article and blog discovery.",
+        "columns": 2,
+        "aspectRatio": "aspect-[2/1]",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668249/rayjuve-article-thumbnail-1_gjl9zz.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668216/rayjuve-article-thumbnail-2_trhyxh.png"
+        ],
+        "services": [
+          "Thumbnail Design"
+        ]
+      },
+      {
+        "title": "Hero Image",
+        "description": "Premium hero banners optimized for multi-device storefront headers.",
+        "columns": 1,
+        "aspectRatio": "aspect-[3/1]",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668250/rayjuve-hero-2_hif04d.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668224/rayjuve-hero-5_yabb0y.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668220/rayjuve-hero-1_ozx3tz.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668222/rayjuve-hero-3_b7z43v.png"
+        ],
+        "services": [
+          "Static Creatives"
+        ]
+      },
+      {
+        "title": "Commercial Lifestyle Composite",
+        "description": "Advanced photo composites placing the product in high-end lifestyle scenarios.",
+        "columns": 2,
+        "aspectRatio": "aspect-[3/2]",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668227/rayjuve-lifesstyle-2_ozezoc.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668225/rayjuve-lifesstyle-1_zsudln.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668232/rayjuve-lifesstyle-4_iywfb6.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668228/rayjuve-lifesstyle-3_jeegdm.png"
+        ],
+        "services": [
+          "Lifestyle Imagery"
+        ]
+      },
+      {
+        "title": "Product Color Change",
+        "description": "Precise digital color manipulation to represent full product variety.",
+        "columns": 2,
+        "aspectRatio": "aspect-[5/3]",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668247/rayjuve-product--7_p7779u.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668241/rayjuve-product--4_pxrjdd.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668252/rayjuve-product--5_sax1nh.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668244/rayjuve-product--6_iz2mli.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668246/rayjuve-product--8_qdb39l.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668240/rayjuve-product--2_sr3m8y.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668237/rayjuve-product--1_lydutz.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668243/rayjuve-product--3_avmejc.png"
+        ],
+        "services": [
+          "Photo Retouch",
+          "E-Commerce"
+        ]
+      }
+    ],
     "details": {
       "role": "Graphic Designer",
       "timeline": "",
@@ -1393,27 +1471,54 @@
   {
     "id": "whitehorse-active",
     "title": "Whitehorse Active Post Production",
-    "category": "Photo Retouching",
+    "category": "Photo Retouch; Lifestyle Imagery; E-Commerce",
     "description": "Fashion Retouching for Whitehorse Active",
     "mainGallery": [
-      "https://i.imgur.com/aT9TT2g.png",
-      "https://i.imgur.com/7nHT772.png",
-      "https://i.imgur.com/pLJK6V7.png"
+      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668275/whitehorse-active-retouch-3_nbe8lj.png",
+      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668279/whitehorse-active-retouch-2_lhq8xy.png",
+      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668276/whitehorse-active-retouch-1_vd9lao.png"
     ],
     "extraSections": [
       {
-        "title": "Project Overview",
-        "description": "In collaboration with Whitehorse Active, a dynamic and innovative fashion brand. As a graphic designer, I am tasked with translating the brand's identity into captivating visuals that resonate with its audience. By seamlessly integrating design elements into the photography, we aim to create a cohesive and immersive experience that showcases White Horse Active's commitment to style, quality, and authenticity. From conceptualizing visual themes to refining the final images, this project aims to redefine the brand's visual language and establish a powerful and memorable presence in the competitive fashion landscape.",
+        "title": "Professional Retouching",
+        "description": "High-end fashion retouching focusing on skin texture, color balance, and garment presentation.",
+        "columns": 1,
+        "aspectRatio": "aspect-[3/1]",
         "images": [
-          "https://i.imgur.com/Lp7TaoZ.png",
-          "https://i.imgur.com/0NcM6KF.png",
-          "https://i.imgur.com/RIHzqjm.png",
-          "https://i.imgur.com/hldUDWm.png",
-          "https://i.imgur.com/qLZUM1N.jpg",
-          "https://i.imgur.com/tiEHeUn.png",
-          "https://i.imgur.com/vTa6qw0.png",
-          "https://i.imgur.com/lakTgQZ.png",
-          "https://i.imgur.com/9YJWglb.png"
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668283/whitehorse-lifestyle-1_i5yppj.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668287/whitehorse-lifestyle-9_hnex9e.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668286/whitehorse-lifestyle-6_xpaprq.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668278/whitehorse-lifestyle-8_tsnezu.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668290/whitehorse-lifestyle-4_hwul5b.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668282/whitehorse-lifestyle-5_abhujg.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668281/whitehorse-lifestyle-7_kk41qy.png"
+        ],
+        "services": [
+          "Photo Retouch"
+        ]
+      },
+      {
+        "title": "Hero Image",
+        "description": "Captivating hero banners designed for impactful e-commerce storefront presence.",
+        "columns": 1,
+        "aspectRatio": "aspect-[3/1]",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668285/whitehorse-lifestyle-2_vvjzhn.png"
+        ],
+        "services": [
+          "E-Commerce"
+        ]
+      },
+      {
+        "title": "Lifestyle Photo",
+        "description": "Authentic lifestyle imagery capturing the brand aesthetic in real-world environments.",
+        "columns": 1,
+        "aspectRatio": "aspect-[3/1]",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668291/whitehorse-lifestyle-3_zhlu7e.png"
+        ],
+        "services": [
+          "Lifestyle Imagery"
         ]
       }
     ],
@@ -1426,14 +1531,54 @@
   {
     "id": "zulay-kitchen",
     "title": "Zulay Kitchen",
-    "category": "Packaging Design",
+    "category": "Packaging; Brand Collateral; Asset Visualization",
     "description": "Packaging Design & 3D Mockup",
     "mainGallery": [
-      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668294/zulay-packaging-3_c29ial.png",
-      "https://i.imgur.com/ECxd9xT.png",
-      "https://i.imgur.com/wraiW4f.png"
+      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776552052/zulay-kitchen-lifestyle-mockup_hyk1e2.png",
+      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668293/zulay-packaging-2_ofxebc.png",
+      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668294/zulay-packaging-3_c29ial.png"
     ],
-    "extraSections": [],
+    "extraSections": [
+      {
+        "title": "Packaging Design",
+        "description": "Professional packaging layouts and high-fidelity 3D mockups for retail readiness.",
+        "columns": 3,
+        "aspectRatio": "aspect-square",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668297/zulay-packaging-1_gfzmmf.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668293/zulay-packaging-2_ofxebc.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668294/zulay-packaging-3_c29ial.png"
+        ],
+        "services": [
+          "Packaging",
+          "E-Commerce"
+        ]
+      },
+      {
+        "title": "Product Photo Retouch",
+        "description": "Precision retouching to enhance product details and visual appeal.",
+        "columns": 1,
+        "aspectRatio": "aspect-[2/1]",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776550532/zulay-product-edit_cslbne.png"
+        ],
+        "services": [
+          "Photo Retouch"
+        ]
+      },
+      {
+        "title": "Ice on a Blender Photo Manipulation",
+        "description": "Creative photo composite showcasing product functionality through digital art.",
+        "columns": 2,
+        "aspectRatio": "aspect-[2/1]",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776550533/zulay-manipulation-ice_oinpuq.png"
+        ],
+        "services": [
+          "Photo Manipulation"
+        ]
+      }
+    ],
     "details": {
       "role": "Graphic Designer",
       "timeline": "",
