@@ -1,5 +1,6 @@
 import { ArrowRight, Search } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import projectsData from "../data/projects.json";
 import servicesData from "../data/services.json";
 import { useLightbox } from "../contexts/LightboxContext";
@@ -8,7 +9,12 @@ export default function Home() {
   const { openLightbox } = useLightbox();
 
   return (
-    <main className="pt-24 pb-32">
+    <>
+      <Helmet>
+        <title>Dom Digital Designs | Professional Graphic Designer</title>
+        <meta name="description" content="Elevate your brand with Dom Digital Designs. I deliver high-impact graphic design, premium SEO marketing, and tailored digital branding solutions." />
+      </Helmet>
+      <main className="pt-24 pb-32">
       {/* Hero Section */}
       <div className="max-w-5xl mx-auto px-6 mb-40">
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center animate-in fade-in slide-in-from-bottom-8 duration-1000">
@@ -144,5 +150,6 @@ export default function Home() {
         </div>
       </section>
     </main>
+    </>
   );
 }

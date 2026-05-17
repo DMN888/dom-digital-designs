@@ -764,7 +764,7 @@
   {
     "id": "keter-project",
     "title": "Keter Project Event Branding",
-    "category": "Brand Collateral",
+    "category": "Brand Collateral; Apparel Design",
     "description": "Elegant and cohesive branding assets for Keter Project events.",
     "mainGallery": [
       "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776424269/keter-scarf-mockup_twbsra.png",
@@ -797,7 +797,8 @@
           "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776424269/keter-scarf-mockup_twbsra.png"
         ],
         "services": [
-          "Brand Collateral"
+          "Brand Collateral",
+          "Apparel Design"
         ]
       },
       {
@@ -1077,14 +1078,54 @@
   {
     "id": "antukin-graphic-tees",
     "title": "Antukin Graphic Tees",
-    "category": "Apparel Design",
+    "category": "Apparel Design; Asset Visualization",
     "description": "Graphic Tees Design For Antukin Clothing",
     "mainGallery": [
-      "https://i.imgur.com/AjmUnlF.png",
-      "https://i.imgur.com/VqdGQuK.png",
-      "https://i.imgur.com/WS6WABY.jpg"
+      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775667964/antukin-cover-1_cnhn3s.png",
+      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775667964/antukin-design-1_bhxtjc.png",
+      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1778990725/antukin_sketch_2_glff8n.png"
     ],
-    "extraSections": [],
+    "extraSections": [
+      {
+        "title": "Conceptualization & Sketching",
+        "description": "Initial hand-drawn concepts and exploratory sketches establishing the visual direction.",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1778990725/antukin_sketch_2_glff8n.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1778990725/antukin_sketch_1_kke8ca.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1778990725/antukin_sketch_3_spwznx.png"
+        ],
+        "columns": 3,
+        "aspectRatio": "aspect-square",
+        "services": []
+      },
+      {
+        "title": "Vector Refinement & Color Application",
+        "description": "Translating sketches into polished vector graphics with vibrant, production-ready colors.",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775667964/antukin-design-1_bhxtjc.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775667964/antukin-design-2_bgtfxp.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775667963/antukin-design-3_b9qpv9.jpg"
+        ],
+        "columns": 3,
+        "aspectRatio": "aspect-square",
+        "services": [
+          "Apparel Design"
+        ]
+      },
+      {
+        "title": "Apparel Mockup",
+        "description": "High-fidelity mockups bringing the final designs to life on physical garments.",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775667964/antukin-cover-1_cnhn3s.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775667964/antukin-mockup-3_kwwngo.jpg"
+        ],
+        "columns": 2,
+        "aspectRatio": "aspect-square",
+        "services": [
+          "Asset Visualization"
+        ]
+      }
+    ],
     "details": {
       "role": "Graphic Designer",
       "timeline": "",
@@ -1220,14 +1261,40 @@
   {
     "id": "jn-triders-uniform",
     "title": "J&T Riders Uniform",
-    "category": "Apparel Design",
+    "category": "Apparel Design; Asset Visualization",
     "description": "Graphic Tees Design For J&T Riders Uniform",
     "mainGallery": [
-      "https://i.imgur.com/GbMw88t.png",
-      "https://i.imgur.com/NzMAm71.png",
-      "https://i.imgur.com/MRRMRxy.png"
+      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668065/j_t-uniform-mockup_o75eam.png",
+      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1778991830/j_t_uniform_design_mi1qzx.png",
+      "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1778991830/j_t_uniforms_variants_fowt0z.png"
     ],
-    "extraSections": [],
+    "extraSections": [
+      {
+        "title": "Vector Illustration",
+        "description": "Custom vector illustrations defining the core aesthetic of the uniform design.",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668064/j_t-uniform-sketch_iqgeow.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1778991830/j_t_uniform_design_mi1qzx.png"
+        ],
+        "columns": 2,
+        "aspectRatio": "aspect-square",
+        "services": []
+      },
+      {
+        "title": "Mockups and Variants",
+        "description": "Exploring various colorways and design adaptations through realistic apparel mockups.",
+        "images": [
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1775668065/j_t-uniform-mockup_o75eam.png",
+          "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1778991830/j_t_uniforms_variants_fowt0z.png"
+        ],
+        "columns": 2,
+        "aspectRatio": "aspect-square",
+        "services": [
+          "Apparel Design",
+          "Asset Visualization"
+        ]
+      }
+    ],
     "details": {
       "role": "Graphic Designer",
       "timeline": "",

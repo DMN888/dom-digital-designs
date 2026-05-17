@@ -1,5 +1,6 @@
 import { ArrowRight, Search } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import projectsData from "../data/projects.json";
 import { useLightbox } from "../contexts/LightboxContext";
 
@@ -7,7 +8,12 @@ export default function Work() {
   const { openLightbox } = useLightbox();
 
   return (
-    <main className="pt-24 pb-32">
+    <>
+      <Helmet>
+        <title>Work Portfolio</title>
+        <meta name="description" content="Explore my graphic design and digital marketing portfolio of Dom Digital Designs. See how I drive brand growth through elite creative solutions." />
+      </Helmet>
+      <main className="pt-24 pb-32">
       <div className="max-w-5xl mx-auto px-6">
         <div className="mb-16">
           <h1 className="text-5xl md:text-6xl font-bold tracking-tighter mb-6">My Work.</h1>
@@ -66,5 +72,6 @@ export default function Work() {
           </div>
       </div>
     </main>
+    </>
   );
 }

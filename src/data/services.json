@@ -63,5 +63,10 @@
     "id": "thumbnail-design",
     "name": "Thumbnail Design",
     "description": "Designing click-driving, high-contrast thumbnails tailored for video platforms."
+  },
+  {
+    "id": "apparel-design",
+    "name": "Apparel Design",
+    "description": "Creating impactful, stylish, and high-quality designs for clothing and wearable merchandise."
   }
 ]

@@ -1,11 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { ArrowRight } from 'lucide-react';
 import services from '../data/services.json';
 
 export default function Services() {
   return (
-    <div className="pt-24 pb-16 px-6 max-w-7xl mx-auto min-h-screen">
+    <>
+      <Helmet>
+        <title>Graphic Design Services | Dom Digital Designs</title>
+        <meta name="description" content="Scale your business with elite services. We specialize in expert graphic design, branding, and high-impact SEO marketing." />
+      </Helmet>
+      <div className="pt-24 pb-16 px-6 max-w-7xl mx-auto min-h-screen">
       <div className="mb-16">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Services</h1>
         <p className="text-xl text-gray-400 max-w-2xl">
@@ -31,5 +37,6 @@ export default function Services() {
         ))}
       </div>
     </div>
+    </>
   );
 }

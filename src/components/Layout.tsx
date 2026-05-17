@@ -9,9 +9,13 @@ export default function Layout() {
         <div className="max-w-5xl mx-auto px-6 h-20 flex items-center justify-between">
           <Link
             to="/"
-            className="text-lg font-bold tracking-tight transition-colors duration-300 hover:text-[#FFCE10]"
+            className="transition-opacity duration-300 hover:opacity-80 flex items-center"
           >
-            Dom Digital Design
+            <img 
+              src="https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1779004239/dom_digital_design_logo_dzmkk5.png" 
+              alt="Dom Digital Designs Logo" 
+              className="h-10 w-auto"
+            />
           </Link>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-[#a1a1aa]">
             <Link to="/" className="hover:text-[#FFCE10] transition-colors">Home</Link>

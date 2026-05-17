@@ -1,6 +1,7 @@
 import { ArrowRight, Mail, MapPin, Briefcase, CheckCircle2 } from "lucide-react";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 export default function Contact() {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -31,7 +32,12 @@ export default function Contact() {
   };
 
   return (
-    <main className="pt-24 pb-32">
+    <>
+      <Helmet>
+        <title>Contact Me | Let's Build Your Brand</title>
+        <meta name="description" content="Ready to elevate your brand? Contact for expert graphic design and digital marketing consultations. Let’s collaborate!" />
+      </Helmet>
+      <main className="pt-24 pb-32">
       <div className="max-w-5xl mx-auto px-6">
         <div className="mb-16">
           <h1 className="text-5xl md:text-6xl font-bold tracking-tighter mb-6">Let's Talk.</h1>
@@ -161,5 +167,6 @@ export default function Contact() {
         </div>
       </div>
     </main>
+    </>
   );
 }
