@@ -72,7 +72,7 @@
   {
     "id": "skyspaces",
     "title": "SkySpaces Static Creatives Design",
-    "category": "Static Creatives; Brand Collateral",
+    "category": "Static Creatives; Brand Collateral; Static Image Ads",
     "description": "Clean and impactful static ad designs and flyers.",
     "mainGallery": [
       "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776466538/skyspaces-flyer-mockup_fha3l3.png",
@@ -93,7 +93,8 @@
           "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776466448/skyspaces-ads-image-1_n5t4vm.jpg"
         ],
         "services": [
-          "Static Creatives"
+          "Static Creatives",
+          "Static Image Ads"
         ]
       },
       {
@@ -274,7 +275,7 @@
   {
     "id": "acco-florida",
     "title": "ACCO Florida Social Media Campaign",
-    "category": "Static Creatives; Motion Creatives",
+    "category": "Static Creatives; Motion Creatives; Static Image Ads; Video Ads",
     "description": "Engaging social media campaign designs and video creatives for ACCO Florida.",
     "mainGallery": [
       "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776394219/acco_image_ads_air_duct_cleaning_kxdcho.jpg",
@@ -308,7 +309,8 @@
           "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776394219/acco_image_ads_air_duct_cleaning_kxdcho.jpg"
         ],
         "services": [
-          "Static Creatives"
+          "Static Creatives",
+          "Static Image Ads"
         ]
       },
       {
@@ -320,7 +322,8 @@
         ],
         "columns": 1,
         "services": [
-          "Motion Creatives"
+          "Motion Creatives",
+          "Video Ads"
         ]
       }
     ],
@@ -378,7 +381,7 @@
   {
     "id": "custom-pins-depot",
     "title": "Custom Pins Depot Ecommerce Visual",
-    "category": "Static Creatives; Photo Retouch; Lifestyle Imagery; Motion Creatives; E-Commerce",
+    "category": "Static Creatives; Photo Retouch; Lifestyle Imagery; Motion Creatives; E-Commerce; Video Ads",
     "description": "Vibrant and engaging e-commerce visual assets for Custom Pins Depot.",
     "mainGallery": [
       "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776397825/custom-pins-header-3_mpfddx.png",
@@ -463,7 +466,8 @@
           "https://res.cloudinary.com/dz3j2wsi1/video/upload/q_auto/f_auto/v1776398583/custom_pins_video_ad_3_yc2tlb.mp4"
         ],
         "services": [
-          "Motion Creatives"
+          "Motion Creatives",
+          "Video Ads"
         ]
       }
     ],
@@ -550,7 +554,7 @@
   {
     "id": "father-son-plumbing",
     "title": "Father & Son Plumbing Digital Content",
-    "category": "AI Image Generation; Static Creatives; Motion Creatives",
+    "category": "AI Image Generation; Static Creatives; Motion Creatives; Video Ads",
     "description": "Modern digital content campaign and AI image generation.",
     "mainGallery": [
       "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776408436/fsplumbers-ai-image-1_gvfi3f.png",
@@ -594,7 +598,8 @@
           "https://res.cloudinary.com/dz3j2wsi1/video/upload/q_auto/f_auto/v1776409419/FS_Plumbers_Water_Heater_v1r1_dwq1pq.mp4"
         ],
         "services": [
-          "Motion Creatives"
+          "Motion Creatives",
+          "Video Ads"
         ]
       }
     ],
@@ -874,7 +879,7 @@
   {
     "id": "nature-guard",
     "title": "Nature Guard Full-Scale Brand Identity",
-    "category": "AI Image Generation; Lifestyle Imagery; Logo Design; Brand Collateral; Asset Visualization; Static Creatives; Motion Creatives; Brand Strategy",
+    "category": "AI Image Generation; Lifestyle Imagery; Logo Design; Brand Collateral; Asset Visualization; Static Creatives; Motion Creatives; Brand Strategy; Video Ads",
     "description": "Comprehensive visual overhaul delivering a cohesive brand identity for Nature Guard.",
     "mainGallery": [
       "https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1776426223/nature-guard-folder-2_kwui4r.png",
@@ -996,7 +1001,8 @@
           "https://res.cloudinary.com/dz3j2wsi1/video/upload/v1776426672/nature_guard_video_bpjvdh.mp4"
         ],
         "services": [
-          "Motion Creatives"
+          "Motion Creatives",
+          "Video Ads"
         ]
       },
       {

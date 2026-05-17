@@ -12,9 +12,9 @@ export default function Layout() {
             className="transition-opacity duration-300 hover:opacity-80 flex items-center"
           >
             <img 
-              src="https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1779004239/dom_digital_design_logo_dzmkk5.png" 
+              src="https://res.cloudinary.com/dz3j2wsi1/image/upload/q_auto/f_auto/v1779025893/dom_digital_design_logo_header_icyuev.png" 
               alt="Dom Digital Designs Logo" 
-              className="h-10 w-auto"
+              className="h-[60px] w-auto"
             />
           </Link>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-[#a1a1aa]">

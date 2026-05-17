@@ -68,5 +68,15 @@
     "id": "apparel-design",
     "name": "Apparel Design",
     "description": "Creating impactful, stylish, and high-quality designs for clothing and wearable merchandise."
+  },
+  {
+    "id": "static-image-ads",
+    "name": "Static Image Ads",
+    "description": "High-converting image ads, flyers, and standalone visual assets for digital marketing."
+  },
+  {
+    "id": "video-ads",
+    "name": "Video Ads",
+    "description": "Engaging, high-converting video advertisements for social media and campaigns."
   }
 ]
