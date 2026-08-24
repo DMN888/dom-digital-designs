@@ -27,10 +27,10 @@ export default function Home() {
               Passion for visual storytelling and creating impactful designs.
             </p>
             <Link
-              to="/work"
+              to="/projects"
               className="inline-flex items-center gap-2 bg-[#FFCE10] text-[#0a0a0a] px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_40px_-10px_rgba(255,206,16,0.5)]"
             >
-              See my work <ArrowRight className="w-5 h-5" />
+              See my projects <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
 
@@ -98,7 +98,7 @@ export default function Home() {
                   <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">
                     {project.title}
                   </h3>
-                  <Link to={`/project/${project.id}`} className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors">
+                  <Link to={`/projects/${project.id}`} className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors">
                     View project <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
@@ -108,7 +108,7 @@ export default function Home() {
 
           <div className="mt-16 text-center">
             <Link
-              to="/work"
+              to="/projects"
               className="inline-flex items-center gap-2 border border-[#333] hover:border-[#FFCE10] text-white hover:text-[#FFCE10] px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300"
             >
               View all projects <ArrowRight className="w-5 h-5" />

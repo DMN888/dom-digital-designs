@@ -1,5 +1,7 @@
 {
   "name": "Dom Digital Design Portfolio",
   "description": "A sleek, premium dark mode minimalist portfolio website for Dom Digital Design.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
+

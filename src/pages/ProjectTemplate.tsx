@@ -9,32 +9,17 @@ export default function ProjectTemplate() {
   const { openLightbox } = useLightbox();
 
   if (!project) {
-    return <Navigate to="/work" replace />;
+    return <Navigate to="/projects" replace />;
   }
 
   return (
     <main className="pt-6 pb-32">
       <div className="max-w-5xl mx-auto px-6">
-        <Link to="/work" className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] hover:text-[#FFCE10] transition-colors mb-8">
-          <ArrowLeft className="w-4 h-4" /> Back to Work
+        <Link to="/projects" className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] hover:text-[#FFCE10] transition-colors mb-8">
+          <ArrowLeft className="w-4 h-4" /> Back to Projects
         </Link>
         
         <div className="mb-16">
-          <div className="flex flex-wrap gap-2 mb-6">
-            {project.category.split('; ').map((cat, idx) => {
-              if (!cat) return null;
-              const slug = cat.toLowerCase().replace(/ /g, '-');
-              return (
-                <Link
-                  key={idx}
-                  to={`/services/${slug}`}
-                  className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5 hover:bg-[#FFCE10] hover:text-[#0a0a0a] transition-colors"
-                >
-                  {cat}
-                </Link>
-              );
-            })}
-          </div>
           <h1 className="text-5xl md:text-6xl font-bold tracking-tighter mb-6">{project.title}</h1>
           <p className="text-xl text-[#a1a1aa] max-w-2xl font-light">
             {project.description}
@@ -150,22 +135,53 @@ export default function ProjectTemplate() {
             <div className="p-6 bg-white/5 border border-white/10 rounded-2xl backdrop-blur-md">
               <h4 className="text-sm font-medium text-white uppercase tracking-wider mb-4">Project Details</h4>
               <ul className="space-y-4 text-sm text-[#a1a1aa]">
+                {/* @ts-ignore */}
                 {project.details.role && (
                   <li>
                     <strong className="block text-white mb-1">Role</strong>
                     {project.details.role}
                   </li>
                 )}
-                {project.details.timeline && (
+                {/* @ts-ignore */}
+                {project.details.period && (
                   <li>
-                    <strong className="block text-white mb-1">Timeline</strong>
-                    {project.details.timeline}
+                    <strong className="block text-white mb-1">Period</strong>
+                    {/* @ts-ignore */}
+                    {project.details.period}
+                  </li>
+                )}
+                {/* @ts-ignore */}
+                {project.details.industry && (
+                  <li>
+                    <strong className="block text-white mb-1">Industry</strong>
+                    {/* @ts-ignore */}
+                    {project.details.industry}
                   </li>
                 )}
                 {project.details.tools && (
                   <li>
                     <strong className="block text-white mb-1">Tools</strong>
                     {project.details.tools}
+                  </li>
+                )}
+                {project.category && (
+                  <li>
+                    <strong className="block text-white mb-2">Services</strong>
+                    <div className="flex flex-wrap gap-2">
+                      {project.category.split('; ').map((cat, idx) => {
+                        if (!cat) return null;
+                        const slug = cat.toLowerCase().replace(/ /g, '-');
+                        return (
+                          <Link
+                            key={idx}
+                            to={`/services/${slug}`}
+                            className="inline-block px-3 py-1 text-xs font-medium text-[#FFCE10] border border-[#FFCE10]/30 rounded-full bg-[#FFCE10]/5 hover:bg-[#FFCE10] hover:text-[#0a0a0a] transition-colors"
+                          >
+                            {cat}
+                          </Link>
+                        );
+                      })}
+                    </div>
                   </li>
                 )}
               </ul>

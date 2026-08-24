@@ -10,13 +10,13 @@ export default function Work() {
   return (
     <>
       <Helmet>
-        <title>Work Portfolio</title>
+        <title>Projects Portfolio</title>
         <meta name="description" content="Explore my graphic design and digital marketing portfolio of Dom Digital Designs. See how I drive brand growth through elite creative solutions." />
       </Helmet>
       <main className="pt-24 pb-32">
       <div className="max-w-5xl mx-auto px-6">
         <div className="mb-16">
-          <h1 className="text-5xl md:text-6xl font-bold tracking-tighter mb-6">My Work.</h1>
+          <h1 className="text-5xl md:text-6xl font-bold tracking-tighter mb-6">My Projects.</h1>
           <p className="text-xl text-[#a1a1aa] max-w-2xl font-light">
             A collection of my recent projects, case studies, and design explorations.
           </p>
@@ -63,7 +63,7 @@ export default function Work() {
                   <h3 className="text-xl font-bold mb-6 text-white group-hover:text-[#FFCE10] transition-colors">
                     {project.title}
                   </h3>
-                  <Link to={`/project/${project.id}`} className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors">
+                  <Link to={`/projects/${project.id}`} className="inline-flex items-center gap-2 text-sm font-medium text-[#a1a1aa] group-hover:text-[#FFCE10] transition-colors">
                     View project <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>

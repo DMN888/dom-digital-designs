@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Layout from "./components/Layout";
 import ScrollToTop from "./components/ScrollToTop";
@@ -24,13 +24,14 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
-              <Route path="work" element={<Work />} />
+              <Route path="projects" element={<Work />} />
+              <Route path="work" element={<Navigate to="/projects" replace />} />
               <Route path="services" element={<Services />} />
               <Route path="services/:serviceSlug" element={<ServiceDetail />} />
               <Route path="contact" element={<Contact />} />
 
-              
               {/* Dynamic Project Route */}
+              <Route path="projects/:id" element={<ProjectTemplate />} />
               <Route path="project/:id" element={<ProjectTemplate />} />
             </Route>
           </Routes>

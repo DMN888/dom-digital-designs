@@ -67,7 +67,7 @@ export default function ServiceDetail() {
                       )}
                     </div>
                     <Link
-                      to={`/project/${project.id}`}
+                      to={`/projects/${project.id}`}
                       className="inline-flex items-center px-6 py-3 rounded-full border border-[#333] text-white hover:border-[#FFCE10] hover:text-[#FFCE10] font-medium transition-all duration-300 whitespace-nowrap"
                     >
                       View this Project

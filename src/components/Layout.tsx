@@ -19,7 +19,7 @@ export default function Layout() {
           </Link>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-[#a1a1aa]">
             <Link to="/" className="hover:text-[#FFCE10] transition-colors">Home</Link>
-            <Link to="/work" className="hover:text-[#FFCE10] transition-colors">Work</Link>
+            <Link to="/projects" className="hover:text-[#FFCE10] transition-colors">Projects</Link>
             <Link to="/services" className="hover:text-[#FFCE10] transition-colors">Services</Link>
             <Link to="/contact" className="hover:text-[#FFCE10] transition-colors">Contact</Link>
           </div>
